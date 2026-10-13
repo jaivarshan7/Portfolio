@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaivarshan B | Software Developer</title>
+  <meta name="description" content="Jaivarshan B — Software Developer specializing in full-stack development, application engineering, databases, and IoT.">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jaivarshan B | Software Developer">
+  <meta property="og:description" content="Jaivarshan B — Software Developer specializing in full-stack development, application engineering, databases, and IoT.">
+  <meta property="og:image" content="assets/DP-1.png">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><text x='50' y='65' font-family='sans-serif' font-size='46' font-weight='bold' fill='%236366f1' text-anchor='middle'>JV.</text></svg>">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Jaivarshan Portfolio Home">
+        <span class="logo-mark">JV</span><span class="logo-dot">.</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-wrapper">
+          <a href="#contact" class="btn btn-sm btn-accent">Let's Talk</a>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Available for new opportunities</span>
+          </div>
+
+          <!-- PERSONAL INFORMATION: NAME & ROLE -->
+          <h1 class="hero-name">JAIVARSHAN B</h1>
+          <p class="hero-role">Software Developer</p>
+          
+          <!-- PERSONAL INFORMATION: SPECIALIZATION -->
+          <div class="hero-meta-line" aria-label="Focus Areas">
+            <span class="meta-tag">Full-Stack Development</span>
+            <span class="meta-dot" aria-hidden="true">&bull;</span>
+            <span class="meta-tag">Application Engineering</span>
+            <span class="meta-dot" aria-hidden="true">&bull;</span>
+            <span class="meta-tag">Databases</span>
+            <span class="meta-dot" aria-hidden="true">&bull;</span>
+            <span class="meta-tag">IoT</span>
+          </div>
+
+          <!-- HERO PRIMARY DESCRIPTION -->
+          <p class="hero-lead">
+            I build web applications, desktop software, and practical technology solutions with a focus on full-stack development, databases, and application security.
+          </p>
+
+          <!-- HERO CALL-TO-ACTION BUTTONS -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l10-10M7 7h10v10"/></svg>
+            </a>
+            
+            <!-- RESUME DOWNLOAD: Prepared for assets/resume.pdf -->
+            <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" download="Jaivarshan_B_Resume.pdf" title="Download Resume (assets/resume.pdf)">
+              <span>Download Resume</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </a>
+          </div>
+
+          <!-- PERSONAL INFORMATION: SOCIAL LINKS (HERO) -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <!-- GITHUB PROFILE LINK -->
+            <a href="https://github.com/jaivarshan7" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <!-- LINKEDIN PROFILE LINK -->
+            <a href="https://www.linkedin.com/in/jaivarshan7/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Terminal/Code Card Visual Element -->
+        <div class="hero-visual reveal" aria-label="Developer Code Snippet">
+          <div class="code-terminal">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">jaivarshan.js</div>
+              <div class="terminal-actions">
+                <span class="file-tag">JS</span>
+              </div>
+            </div>
+            <div class="terminal-body">
+              <pre><code><span class="code-line"><span class="line-num">1</span><span class="token-keyword">const</span> <span class="token-variable">developer</span> = {</span>
+<span class="code-line"><span class="line-num">2</span>    <span class="token-property">name</span>: <span class="token-string">"Jaivarshan B"</span>,</span>
+<span class="code-line"><span class="line-num">3</span>    <span class="token-property">role</span>: <span class="token-string">"Software Developer"</span>,</span>
+<span class="code-line"><span class="line-num">4</span>    <span class="token-property">focusAreas</span>: [</span>
+<span class="code-line"><span class="line-num">5</span>        <span class="token-string">"Full-Stack Development"</span>,</span>
+<span class="code-line"><span class="line-num">6</span>        <span class="token-string">"Application Engineering"</span>,</span>
+<span class="code-line"><span class="line-num">7</span>        <span class="token-string">"Databases &amp; Security"</span>,</span>
+<span class="code-line"><span class="line-num">8</span>        <span class="token-string">"IoT Systems"</span></span>
+<span class="code-line"><span class="line-num">9</span>    ]</span>
+<span class="code-line"><span class="line-num">10</span>};</span></code></pre>
+            </div>
+            <div class="terminal-footer">
+              <span class="status-indicator"></span>
+              <span class="status-text">Ready to deploy solutions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT SECTION
+         ========================================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">About Me</p>
+          <h2 class="section-title">Building things that solve problems.</h2>
+        </div>
+
+        <div class="about-grid reveal">
+          <div class="about-card">
+            <div class="about-text-content">
+              <p class="about-paragraph">
+                I build web applications, desktop software, and practical technology solutions with a focus on full-stack development, databases, and application security.
+              </p>
+              <p class="about-paragraph">
+                I have developed a multi-tenant warehouse management system, contributed to an RFID-based retail checkout application, and built web tools for real-world calculations and financial tracking.
+              </p>
+              <p class="about-paragraph">
+                I enjoy working across software engineering, databases, and IoT systems, turning real-world problem statements into robust, efficient, and secure software solutions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Profile Visual Avatar Card -->
+          <div class="about-image-card">
+            <div class="profile-frame">
+              <img src="assets/DP-1.png" alt="Jaivarshan B" class="profile-img" width="400" height="400" loading="eager" decoding="async">
+              <div class="profile-badge">
+                <span class="badge-dot"></span>
+                <span>Jaivarshan B &bull; Software Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS SECTION
+         ========================================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Expertise</p>
+          <h2 class="section-title">Technologies I work with.</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+            </div>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+              </div>
+              <h3 class="category-title">Frameworks</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">React Router 7</span>
+              <span class="skill-tag">Vite</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">PyQt6</span>
+              <span class="skill-tag">Flutter</span>
+            </div>
+          </div>
+
+          <!-- Backend & Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3 class="category-title">Backend &amp; Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">RPC</span>
+            </div>
+          </div>
+
+          <!-- Security & Testing -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="category-title">Security &amp; Testing</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Supabase Auth</span>
+              <span class="skill-tag">RBAC</span>
+              <span class="skill-tag">RLS</span>
+              <span class="skill-tag">PBKDF2-HMAC-SHA256</span>
+              <span class="skill-tag">Vitest</span>
+              <span class="skill-tag">unittest</span>
+            </div>
+          </div>
+
+          <!-- Tools & Deployment -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3 class="category-title">Tools &amp; Deployment</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Vercel</span>
+              <span class="skill-tag">Firebase Hosting</span>
+              <span class="skill-tag">PyInstaller</span>
+            </div>
+          </div>
+
+          <!-- Hardware -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-box" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+              </div>
+              <h3 class="category-title">Hardware</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">RFID</span>
+              <span class="skill-tag">ESP32</span>
+              <span class="skill-tag">ESP8266</span>
+              <span class="skill-tag">PN532</span>
+              <span class="skill-tag">MFRC522</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROJECTS SECTION
+         ========================================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-tag">Featured Work</p>
+          <h2 class="section-title">Things I've built.</h2>
+        </div>
+
+        <!-- Prominent Featured Projects: WarehouseOS & SmartCheckout -->
+        <div class="projects-featured-list">
+          <!-- ========================================== -->
+          <!-- PROJECT: WAREHOUSEOS                       -->
+          <!-- ========================================== -->
+          <article class="project-card project-card-featured reveal">
+            <div class="project-preview">
+              <!-- Screenshot: assets/wms.png -->
+              <img src="assets/wms.png" alt="WarehouseOS — Multi-tenant Warehouse Management System preview" class="project-img" width="640" height="360" loading="lazy" decoding="async">
+              <div class="project-overlay">
+                <span class="project-badge badge-featured">Featured Project</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-number">01</span>
+                <span class="project-category">Full-Stack Web Platform</span>
+              </div>
+              <h3 class="project-title">WarehouseOS</h3>
+              <p class="project-desc">
+                Developed and tested a multi-tenant warehouse management system for warehouse operators, staff, accountants, clients, and platform administrators. Implemented inventory and order workflows, invoices, Supabase authentication, RBAC, and Row-Level Security for tenant-aware access control. Designed database schemas and migrations in Supabase/PostgreSQL for users, inventory, orders, invoices, and tenant data. Built frontend features with React and TypeScript, maintaining application navigation using React Router 7, added Vitest tests, and deployed on Vercel.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Vitest</span>
+              </div>
+              <div class="project-footer-action">
+                <a href="https://warevo-three.vercel.app" target="_blank" rel="noopener noreferrer" class="project-action-link" title="Live Demo: warevo-three.vercel.app">
+                  <span>Live Demo</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l10-10M7 7h10v10"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ========================================== -->
+          <!-- PROJECT: SMARTCHECKOUT                     -->
+          <!-- ========================================== -->
+          <article class="project-card project-card-featured reveal">
+            <div class="project-preview">
+              <!-- Screenshot: assets/smartcheckout.png -->
+              <img src="assets/smartcheckout.png" alt="SmartCheckout — RFID-Based Retail Billing &amp; Administration System preview" class="project-img" width="640" height="360" loading="lazy" decoding="async">
+              <div class="project-overlay">
+                <span class="project-badge badge-featured">Featured Project</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-number">02</span>
+                <span class="project-category">Desktop POS &bull; Hardware Integration</span>
+              </div>
+              <h3 class="project-title">SmartCheckout</h3>
+              <p class="project-desc">
+                Contributed to an RFID-based desktop POS and inventory management system for automated product identification and checkout. Worked on RFID integration, processing tag identifiers and mapping scanned products to MySQL product records. Developed PyQt6 GUI components for the checkout application, contributed to database-backed checkout workflows, implemented administrative password hashing using PBKDF2-HMAC-SHA256 to avoid storing plaintext passwords, and worked within a layered architecture separating presentation, business logic, and database layers.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyQt6</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">RFID</span>
+                <span class="tech-tag">PyInstaller</span>
+              </div>
+              <div class="project-footer-action">
+                <span class="project-category" style="font-family: var(--font-mono); font-size: 0.8125rem; color: var(--accent-cyan); display: inline-flex; align-items: center; gap: 0.35rem;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                  Desktop Application &bull; Contributions
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Additional Projects Grid: Port Charges Calculator & Spendly -->
+        <div class="projects-secondary-header reveal">
+          <h3 class="secondary-title">Additional Projects</h3>
+        </div>
+
+        <div class="projects-grid">
+          <!-- ========================================== -->
+          <!-- PROJECT: PORT CHARGES CALCULATOR           -->
+          <!-- ========================================== -->
+          <article class="project-card reveal">
+            <div class="project-preview">
+              <!-- Screenshot: assets/techblaze.png -->
+              <img src="assets/techblaze.png" alt="Port Charges Calculator — Chennai Port Authority Internship preview" class="project-img" width="640" height="360" loading="lazy" decoding="async">
+              <div class="project-overlay">
+                <span class="project-badge">Internship Project</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-number">03</span>
+                <span class="project-category">Chennai Port Authority</span>
+              </div>
+              <h3 class="project-title">Port Charges Calculator</h3>
+              <p class="project-desc">
+                Developed a web-based calculator for official port tariff calculations during an internship at Chennai Port Authority. Implemented JavaScript calculation logic for demurrage and container storage charges, developed PDF export functionality for structured calculation results, and built and refined the user interface using HTML, CSS, and JavaScript.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ========================================== -->
+          <!-- PROJECT: SPENDLY                           -->
+          <!-- ========================================== -->
+          <article class="project-card reveal">
+            <div class="project-preview">
+              <!-- Screenshot: assets/iot-automation.png -->
+              <img src="assets/iot-automation.png" alt="Spendly — Financial Tracking &amp; Analysis Application preview" class="project-img" width="640" height="360" loading="lazy" decoding="async">
+              <div class="project-overlay">
+                <span class="project-badge">Mobile App</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-number">04</span>
+                <a href="https://github.com/jaivarshan7/Spendly" target="_blank" rel="noopener noreferrer" class="project-action-link" title="Repository: Spendly">
+                  <span>GitHub</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17l10-10M7 7h10v10"/></svg>
+                </a>
+              </div>
+              <h3 class="project-title">Spendly</h3>
+              <p class="project-desc">
+                Developed a mobile application for personal financial tracking and management. Implemented functionality for recording, organizing, and managing personal financial transactions using Flutter and Firebase.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EXPERIENCE & EDUCATION DUAL SECTION
+         ========================================================================== -->
+    <section class="section journey-section" id="experience">
+      <div class="container journey-grid">
+        <!-- Experience Column -->
+        <div class="timeline-column reveal">
+          <div class="section-header">
+            <p class="section-tag">Timeline</p>
+            <h2 class="section-title">Experience.</h2>
+          </div>
+
+          <div class="timeline-list">
+            <!-- Chennai Port Authority Internship -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <div>
+                    <h3 class="timeline-title">Chennai Port Authority</h3>
+                    <p class="timeline-role" style="font-size: 0.875rem; color: var(--accent-cyan); margin-top: 0.2rem; font-weight: 500;">Intern</p>
+                  </div>
+                  <span class="timeline-year">17-day Internship</span>
+                </div>
+                <p class="timeline-desc">
+                  Developed a web-based Port Charges Calculator for official port tariff calculations. Implemented JavaScript calculation logic for demurrage and container storage charges, developed PDF export functionality for structured calculation results, and built and refined the interface using HTML, CSS, and JavaScript.
+                </p>
+                <div class="tech-tags" style="margin-top: 1rem;">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Leadership & Achievements: TECH BLAZE -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <div>
+                    <h3 class="timeline-title">TECH BLAZE Symposium</h3>
+                    <p class="timeline-role" style="font-size: 0.875rem; color: var(--accent-cyan); margin-top: 0.2rem; font-weight: 500;">Organizer &bull; Leadership</p>
+                  </div>
+                  <span class="timeline-year">Hindustan Institute</span>
+                </div>
+                <p class="timeline-desc">
+                  Contributed to organizing TECH BLAZE, a technical symposium at Hindustan Institute of Technology and Science, supporting planning, coordination, and event execution.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Column -->
+        <div class="education-column reveal" id="education">
+          <div class="section-header">
+            <p class="section-tag">Academic</p>
+            <h2 class="section-title">Education.</h2>
+          </div>
+
+          <!-- BCA Degree Card -->
+          <div class="education-card">
+            <div class="education-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="education-details">
+              <h3 class="education-degree">Bachelor of Computer Applications (BCA)</h3>
+              <p class="education-institute">Hindustan Institute of Technology and Science</p>
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.65rem;">
+                <span class="education-tag">2023–2026</span>
+                <span class="education-tag">CGPA: 8.05 / 10</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Card -->
+          <div class="certifications-card">
+            <div class="cert-header">
+              <div class="cert-header-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+              </div>
+              <div class="cert-title-group">
+                <h3 class="cert-title">Certifications</h3>
+                <span class="cert-subtitle">GUVI Verified</span>
+              </div>
+            </div>
+            <div class="cert-list">
+              <div class="cert-item">
+                <span class="cert-name">Python</span>
+                <span class="cert-issuer">GUVI</span>
+              </div>
+              <div class="cert-item">
+                <span class="cert-name">HTML &amp; CSS</span>
+                <span class="cert-issuer">GUVI</span>
+              </div>
+              <div class="cert-item">
+                <span class="cert-name">JavaScript</span>
+                <span class="cert-issuer">GUVI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="section-tag">Get in Touch</p>
+          <h2 class="contact-heading">Let's build something.</h2>
+          <p class="contact-text">
+            Interested in working together or just want to say hello?
+          </p>
+
+          <!-- PERSONAL INFORMATION: EMAIL ACTION -->
+          <div class="contact-actions">
+            <a href="mailto:jaivarshan732005@gmail.com" class="btn btn-primary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Get In Touch</span>
+            </a>
+
+            <!-- Quick Copy Email Button: reads data-email automatically -->
+            <button class="btn btn-secondary btn-lg copy-btn" id="copy-email-btn" data-email="jaivarshan732005@gmail.com" title="Copy email address to clipboard">
+              <svg class="copy-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span id="copy-text">Copy Email</span>
+            </button>
+          </div>
+
+          <!-- PERSONAL INFORMATION: SOCIAL LINKS (CONTACT) -->
+          <div class="contact-socials">
+            <span class="contact-social-label">Find me on</span>
+            <a href="https://github.com/jaivarshan7" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="GitHub profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jaivarshan7/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p class="copyright">&copy; 2026 Jaivarshan B.</p>
+        <p class="footer-subtext">Built with HTML, CSS &amp; JavaScript.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          <span>Back to top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification for actions (e.g. copying email) -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js?v=4"></script>
+</body>
+</html>
